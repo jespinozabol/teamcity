@@ -1,0 +1,12 @@
+C:\Bipin\UnitTestsDemo\bin\Debug\UnitTestsDemo.dll
+C:\Bipin\UnitTestsDemo\bin\Debug\UnitTestsDemo.pdb
+C:\Bipin\UnitTestsDemo\obj\Debug\UnitTestsDemo.csprojResolveAssemblyReference.cache
+C:\Bipin\UnitTestsDemo\obj\Debug\UnitTestsDemo.dll
+C:\Bipin\UnitTestsDemo\obj\Debug\UnitTestsDemo.pdb
+C:\Bipin\UnitTestsDemo\bin\Debug\EmployeeLib.dll
+C:\Bipin\UnitTestsDemo\bin\Debug\EntityFramework.dll
+C:\Bipin\UnitTestsDemo\bin\Debug\EmployeeLib.pdb
+C:\Bipin\UnitTestsDemo\bin\Debug\EntityFramework.xml
+C:\Bipin\UnitTestsDemo\bin\Debug\UnitTestsDemo.dll.config
+C:\Bipin\UnitTestsDemo\bin\Debug\nunit.framework.dll
+C:\Bipin\UnitTestsDemo\bin\Debug\nunit.framework.xml
