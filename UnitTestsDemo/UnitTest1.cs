@@ -14,5 +14,12 @@ namespace UnitTestsDemo
             EmployeeLib.Employee emp = helper.GetByEmployeeID(100);
             Assert.IsNotNull(emp);
         }
+        [Test]
+        public void TestGetEmployeeByID2()
+        {
+            EmployeeLib.EmployeeHelper helper = new EmployeeLib.EmployeeHelper();
+            EmployeeLib.Employee emp = helper.GetByEmployeeID(100);
+            Assert.Fail();
+        }
     }
 }

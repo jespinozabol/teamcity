@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmployeeLib
 {
@@ -10,11 +8,16 @@ namespace EmployeeLib
     {
         public Employee GetByEmployeeID(int empId)
         {
-            NorthwindEntities db=new NorthwindEntities();
-            var data = from item in db.Employees
+            var db = new List<Employee>();
+            for (int i = 0; i <= 100; i++)
+            {
+                db.Add(new Employee() { EmployeeID = i, LastName = "LastName_" + i, Address = "Address_" + i, BirthDate = DateTime.Today, City = "City_" + i, Country = "Country_" + i, FirstName = "FirstName_" + i });
+            };
+
+            var data = from item in db
                        where item.EmployeeID == empId
                        select item;
-            return data.SingleOrDefault();
+            return data.FirstOrDefault();
         }
     }
 }
