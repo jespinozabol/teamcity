@@ -48,8 +48,8 @@ namespace ContinuosIntegrationSample.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            //Assert.IsNotNull(result);
-            Assert.Fail();
+            Assert.IsNotNull(result);
+            
         }
     }
 }
