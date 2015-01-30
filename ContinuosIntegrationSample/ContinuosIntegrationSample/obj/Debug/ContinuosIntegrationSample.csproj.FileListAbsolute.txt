@@ -83,3 +83,10 @@ C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\bin\
 C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\obj\Debug\ContinuosIntegrationSample.csprojResolveAssemblyReference.cache
 C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\obj\Debug\ContinuosIntegrationSample.dll
 C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\obj\Debug\ContinuosIntegrationSample.pdb
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\bin\GitSharp.Core.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\bin\GitSharp.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\bin\ICSharpCode.SharpZipLib.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\bin\Tamir.SharpSSH.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample\bin\Winterdom.IO.FileMap.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.pdb

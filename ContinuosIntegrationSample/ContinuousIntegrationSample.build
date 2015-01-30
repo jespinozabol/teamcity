@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" TaskName="AsyncExec.AsyncExec"
+         ToolsVersion="4.0"
+         DefaultTargets="Compile">
+  <UsingTask AssemblyFile=".\ThirdParty\Tools\AsyncExec\AsyncExec.dll"></UsingTask>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildAartifacts Include=".\buildartifacts\" />
+    <SolutionFile Include=".\ContinuosIntegrationSample.sln" />
+    <Cassini Include="$(CommonProgramFiles)\microsoft shared\DevServer\11.0\WebDev.WebServer40.EXE" />
+    
+  </ItemGroup>
+  <Target Name="Clean">
+    <RemoveDir Directories="@(BuildAartifacts)"/>
+  </Target>
+  <Target Name="Init" DependsOnTargets="Clean">
+    <MakeDir Directories="@(BuildAartifacts)"/>
+  </Target>
+  <Target Name="Compile" DependsOnTargets="Init">
+    <MSBuild Projects="@(SolutionFile)" Targets="Rebuild" Properties="OutDir=%(BuildAartifacts.FullPath); Configuration=$(Configuration)"/>
+  </Target>
+  <Target Name="StartWebsite">
+    <AsyncExec Command='"@(Cassini)" /port:9999 /path:"%(Website.FullPath)" /vpath: '/>
+  </Target>
+</Project>
+<!--C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Msbuild.exe C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuousIntegrationSample.build /target:Init-->

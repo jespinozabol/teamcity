@@ -80,3 +80,11 @@ C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Test
 C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\obj\Debug\ContinuosIntegrationSample.Tests.csprojResolveAssemblyReference.cache
 C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\obj\Debug\ContinuosIntegrationSample.Tests.dll
 C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\obj\Debug\ContinuosIntegrationSample.Tests.pdb
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\bin\Debug\GitSharp.Core.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\bin\Debug\GitSharp.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\bin\Debug\Tamir.SharpSSH.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\bin\Debug\Winterdom.IO.FileMap.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.Tests.dll.config
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.Tests.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.Tests.pdb

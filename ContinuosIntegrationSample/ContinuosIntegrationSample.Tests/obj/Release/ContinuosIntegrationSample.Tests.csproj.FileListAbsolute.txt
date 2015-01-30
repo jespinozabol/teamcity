@@ -1,0 +1,6 @@
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.Tests.dll.config
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.Tests.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\buildartifacts\ContinuosIntegrationSample.Tests.pdb
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\obj\Release\ContinuosIntegrationSample.Tests.csprojResolveAssemblyReference.cache
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\obj\Release\ContinuosIntegrationSample.Tests.dll
+C:\Workspace\UnitTest\ContinuosIntegrationSample\ContinuosIntegrationSample.Tests\obj\Release\ContinuosIntegrationSample.Tests.pdb
